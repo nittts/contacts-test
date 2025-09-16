@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020" /* Set the JavaScript version output. */,
+    "lib": ["ES2020"] /* Available APIs (Node.js runtime + ES features). */,
+    "module": "CommonJS" /* Use CommonJS (Node.js standard). */,
+    "moduleResolution": "Node" /* Resolve modules using Node strategy. */,
+
+    /* Paths */
+    "rootDir": "src" /* Input TypeScript source directory. */,
+    "outDir": "dist" /* Compiled JavaScript output directory. */,
+    "baseUrl": "./" /* Base path for non-relative module imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": true /* Raise error on variables with implicit `any`. */,
+    "strictNullChecks": true /* Enforce null/undefined checks. */,
+    "strictPropertyInitialization": true /* Ensure class properties are initialized. */,
+    "esModuleInterop": true /* Fix default imports for CommonJS modules. */,
+    "forceConsistentCasingInFileNames": true /* Prevent import casing mismatches. */,
+    "skipLibCheck": true /* Skip type checking in node_modules for speed. */,
+
+    /* Debugging */
+    "sourceMap": true /* Generate source maps for debugging. */,
+    "resolveJsonModule": true /* Allow importing JSON files. */,
+    "pretty": true /* Format compiler output nicely. */,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src"] /* Files to include in compilation. */,
+  "exclude": ["node_modules", "dist", "build"] /* Ignore these folders. */
+}
